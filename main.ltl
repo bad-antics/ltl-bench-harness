@@ -1,0 +1,15 @@
+// ltl-bench-harness/main.ltl
+//
+// Microbenchmark harness with warmups, IQR, and JSON output.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-bench-harness v0.1.0")
+    io::println("Microbenchmark harness with warmups, IQR, and JSON output.")
+    0
+}
